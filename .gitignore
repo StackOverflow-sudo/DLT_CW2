@@ -1,0 +1,71 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+.coverage
+htmlcov/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environments
+.venv/
+venv/
+env/
+.env
+.env.*
+
+# Data and generated outputs
+data/raw/*
+data/processed/*
+others/*
+outputs/*
+wandb/
+runs/
+mlruns/
+lightning_logs/
+tensorboard/
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# Keep directory placeholders
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!outputs/.gitkeep
+
+# Large archives and downloaded competition files
+*.zip
+*.7z
+*.tar
+*.tar.gz
+*.tgz
+*.torrent
+
+# Notebooks
+.ipynb_checkpoints/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.code-workspace
+
+# LaTeX build files
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.synctex.gz
+*.toc
+*.fls
+*.fdb_latexmk
+*.bcf
+*.run.xml
+*.nav
+*.snm
+*.vrb
